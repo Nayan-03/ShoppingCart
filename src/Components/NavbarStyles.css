@@ -65,7 +65,7 @@ header {
 .container
 {
     width: 100%;
-    display: flex;
+    display: relative;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 30px;
@@ -83,6 +83,7 @@ header {
     border-radius: 10px;
     padding: 30px 40px;
     float: left;
+    margin-top: 50px;
     margin-left: 25px;
 }
 
@@ -108,7 +109,7 @@ header {
 {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .container .box .contant .detail .info h3
@@ -120,7 +121,7 @@ header {
 
 .container .box .contant .detail button
 {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 30px;
     padding: 10px 30px;
     border: none;
