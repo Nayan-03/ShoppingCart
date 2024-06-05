@@ -35,6 +35,7 @@ export const Account = () => {
                         value={accountDetails.name}
                         onChange={handleChange}
                         required
+                        placeholder='Name'
                     />
                 </div>
                 <div className='form-group'>
@@ -46,6 +47,7 @@ export const Account = () => {
                         value={accountDetails.address}
                         onChange={handleChange}
                         required
+                        placeholder='Address'
                     />
                 </div>
                 <button type='submit' className='save-button'>Save</button>
