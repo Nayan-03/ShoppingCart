@@ -5,7 +5,7 @@ import './NavbarStyles.css';
 const Navbar = () => {
     return (
         <header>
-            <h2 className="logo">Shopping Cart</h2>
+            <h2 className="logo">Shopping</h2>
             <nav className="navigation">
                 <Link className="a" to="/product">Product</Link>
                 <Link className="a" to="/cart">Cart</Link>
